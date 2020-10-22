@@ -1,0 +1,56 @@
+﻿@model IEnumerable<MVC.Models.Books>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.bookName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bookAuthor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.publication)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.edition)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.bookId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bookName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bookAuthor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.publication)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.edition)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
