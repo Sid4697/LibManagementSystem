@@ -1,0 +1,9 @@
+C:\Users\Furious\source\repos\WebApi_in_IIS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Furious\source\repos\WebApi_in_IIS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Furious\source\repos\WebApi_in_IIS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Furious\source\repos\WebApi_in_IIS\obj\Debug\netcoreapp3.1\WebApi_in_IIS.csprojAssemblyReference.cache
+C:\Users\Furious\source\repos\WebApi_in_IIS\obj\Debug\netcoreapp3.1\WebApi_in_IIS.AssemblyInfoInputs.cache
+C:\Users\Furious\source\repos\WebApi_in_IIS\obj\Debug\netcoreapp3.1\WebApi_in_IIS.AssemblyInfo.cs
+C:\Users\Furious\source\repos\WebApi_in_IIS\obj\Debug\netcoreapp3.1\WebApi_in_IIS.RazorTargetAssemblyInfo.cache
+C:\Users\Furious\source\repos\WebApi_in_IIS\obj\Debug\netcoreapp3.1\staticwebassets\WebApi_in_IIS.StaticWebAssets.Manifest.cache
+C:\Users\Furious\source\repos\WebApi_in_IIS\obj\Debug\netcoreapp3.1\staticwebassets\WebApi_in_IIS.StaticWebAssets.xml
